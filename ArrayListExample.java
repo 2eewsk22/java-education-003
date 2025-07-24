@@ -6,7 +6,15 @@ public class ArrayListExample { // 클래스 정의 시작
         fruits.add("사과");
         fruits.add("바나나");
         fruits.add("포도");
-        fruits.add("딸기기");
+        fruits.add("딸기");
+
+        //fruits.clear();
+        fruits.add("포도");
+        fruits.add("딸기");
+        
+        System.out.println(" fruits.size():" + fruits.size());
+        fruits.remove(0);
+        //fruits.clear();
 
         for (String fruit : fruits) { // 반복문 시작
             System.out.println("과일: " + fruit); // 콘솔에 메시지 출력
